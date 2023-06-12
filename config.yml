@@ -1,0 +1,19 @@
+---
+title: "Risk Management Primer"
+author: "By Joel Parker Henderson"
+date: "Version 1.0"
+subtitle: "Concepts • Terminology • Tactics"
+titlepage: true
+titlepage-color: "FFFFFF"
+titlepage-text-color: "000000"
+titlepage-rule-color: "CCCCCC"
+titlepage-rule-height: 4
+links-as-notes: false
+listings-disable-line-numbers: true
+listings-no-page-break: false
+disable-header-and-footer: false
+footer-left: "© Joel Parker Henderson"
+footer-center: "License: CC-BY-NC-SA-4.0"
+subparagraph: true
+lang: en-US
+---
