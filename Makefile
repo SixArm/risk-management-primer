@@ -2,6 +2,7 @@ top = $(shell git rev-parse --show-toplevel)
 key = $(shell basename ${top})
 
 all: ${key}.md ${key}.pdf
+
 new: clean all
 
 .PHONY: clean

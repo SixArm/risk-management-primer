@@ -72,25 +72,6 @@ Key functions often include:
 * Training and Education: Conduct training and education sessions for employees to increase awareness of risks and best practices for risk management.
 
 
-## Inherent risk
-
-Inherent risk, also known as inherent risk exposure, refers to the level of risk or vulnerability that exists in a process, activity, or business environment before any control measures are implemented. It represents the risk inherent in a particular situation or operation, assuming there are no mitigating controls or risk management measures in place.
-
-Key points…
-
-Nature of Risk: Consider factors such as the complexity of the process, the sensitivity of the information involved, the potential impact of the risk event, and the likelihood of its occurrence.
-
-Control Absence: Represent the risk level before considering any controls that may be implemented to reduce or mitigate the risk. Understand the magnitude of the risk exposure and the potential consequences.
-
-Risk Assessment: Identify and prioritize risks based on their inherent characteristics. Provide a foundation for implementing appropriate control measures to mitigate or manage the identified risks.
-
-Risk Evaluation: Analyzing the potential impact and likelihood of risks to determine their significance and prioritize risk management efforts. Focus on risks that pose the most significant threats.
-
-Risk Management: Determine the appropriate level of controls and risk mitigation strategies necessary to reduce the inherent risk to an acceptable level. Implement targeted risk management actions.
-
-Dynamic Nature: Monitor inherent risk over time, because factors such as environmental changes, new technologies, regulatory developments, or market shifts can alter risks and organizational risk appetite.
-
-
 ## Control assessment
 
 Control assessment refers to the process of evaluating and assessing the effectiveness of internal controls within an organization. Internal controls are policies, procedures, and mechanisms put in place to mitigate risks, ensure compliance with regulations, safeguard assets, and achieve organizational objectives.
@@ -110,22 +91,23 @@ Control Remediation: This involves developing and implementing corrective action
 Reporting and Communication: A control assessment report communicates the identified control deficiencies, potential impact on the organization, and recommendations for improvement. The report is shared with management, stakeholders, and, in some cases, external auditors or regulatory bodies.
 
 
-## Coordinated disclosure
+## Inherent risk
 
-Coordinated disclosure is a process of reporting security vulnerabilities or bugs found in systems to the systems' owners. Coordinated disclosure is important because it allows security vulnerabilities to be addressed and fixed before they can be exploited by malicious actors. This helps protect users, data, and systems from potential harm.
+Inherent risk, also known as inherent risk exposure, refers to the level of risk or vulnerability that exists in a process, activity, or business environment before any control measures are implemented. It represents the risk inherent in a particular situation or operation, assuming there are no mitigating controls or risk management measures in place.
 
-Key steps…
+Key points…
 
-1. Discovery: The first step is discovering a security vulnerability or bug. For example, security researchers can identify potential vulnerabilities in software or hardware systems.
+Nature of Risk: Consider factors such as the complexity of the process, the sensitivity of the information involved, the potential impact of the risk event, and the likelihood of its occurrence.
 
-2. Notification: The discoverer notifies the owner of the product or system. This is done privately and securely to prevent the vulnerability from being known to others.
+Control Absence: Represent the risk level before considering any controls that may be implemented to reduce or mitigate the risk. Understand the magnitude of the risk exposure and the potential consequences.
 
-3. Verification: The owner verifies the issue and determines its severity. This can involve testing the system and analyzing the potential impact of the vulnerability on users.
+Risk Assessment: Identify and prioritize risks based on their inherent characteristics. Provide a foundation for implementing appropriate control measures to mitigate or manage the identified risks.
 
-4. Fix and Release: The owner develops a patch or fix for the issue, then releases it to users as soon as possible, along with instructions on how to install and use it.
+Risk Evaluation: Analyzing the potential impact and likelihood of risks to determine their significance and prioritize risk management efforts. Focus on risks that pose the most significant threats.
 
-5. Disclosure: After the fix, the discoverer and owner can disclose the issue publicly. This allows other people to learn about issue, and take steps to protect themselves from similar issues in the future.
+Risk Management: Determine the appropriate level of controls and risk mitigation strategies necessary to reduce the inherent risk to an acceptable level. Implement targeted risk management actions.
 
+Dynamic Nature: Monitor inherent risk over time, because factors such as environmental changes, new technologies, regulatory developments, or market shifts can alter risks and organizational risk appetite.
 
 
 ## Key Risk Indicators (KRIs)
@@ -240,6 +222,24 @@ Compliance: Governance ensures compliance with laws, regulations, and industry s
 Stakeholder Engagement: Effective governance involves engaging and considering the interests of various stakeholders, including employees, customers, suppliers, and the local community. 
 
 Performance Evaluation: Governance establishes processes for setting goals, monitoring progress,  assessing outcomes, and evaluating the performance of the board, management, and the organization.
+
+
+## Coordinated disclosure
+
+Coordinated disclosure is a process of reporting security vulnerabilities or bugs found in systems to the systems' owners. Coordinated disclosure is important because it allows security vulnerabilities to be addressed and fixed before they can be exploited by malicious actors. This helps protect users, data, and systems from potential harm.
+
+Key steps…
+
+1. Discovery: The first step is discovering a security vulnerability or bug. For example, security researchers can identify potential vulnerabilities in software or hardware systems.
+
+2. Notification: The discoverer notifies the owner of the product or system. This is done privately and securely to prevent the vulnerability from being known to others.
+
+3. Verification: The owner verifies the issue and determines its severity. This can involve testing the system and analyzing the potential impact of the vulnerability on users.
+
+4. Fix and Release: The owner develops a patch or fix for the issue, then releases it to users as soon as possible, along with instructions on how to install and use it.
+
+5. Disclosure: After the fix, the discoverer and owner can disclose the issue publicly. This allows other people to learn about issue, and take steps to protect themselves from similar issues in the future.
+
 
 
 ## Compliance
@@ -516,6 +516,65 @@ Auditing involves collecting and analyzing data from various sources, including 
 Auditing can be conducted manually or through automated tools, such as intrusion detection systems (IDS) or security information and event management (SIEM) systems. Automated auditing tools can provide real-time alerts and notifications, enabling security teams to quickly respond to potential threats.
 
 Regular auditing is essential for maintaining the security and integrity of sensitive data, as well as for demonstrating compliance with legal and regulatory requirements. Auditing should be conducted on a regular basis, with results documented and reported to management and stakeholders.
+
+
+## Access control
+
+Access control is a security mechanism that controls access to resources, information or services in a computer system or network. It involves granting or denying permissions to individuals, groups or computer systems based on predefined policies or rules.
+
+Access control can be implemented at various levels, including physical access control, network access control, and application-level access control. In physical access control, physical barriers such as doors, locks, or keycards are used to control access to buildings, rooms, or data centers. Network access control involves controlling access to a network or computer system based on user authentication and authorization, such as usernames and passwords, digital certificates or biometric authentication. Application-level access control involves controlling access to software applications or services, based on user roles, privileges or permissions.
+
+Access control systems typically use a combination of different techniques and technologies to achieve their goals, including identity management, authentication, authorization, and auditing. Identity management involves managing user identities and ensuring that only authorized users are given access to the system or resource. Authentication verifies the identity of a user through the use of passwords, smart cards, biometric sensors or other means. Authorization determines the actions that an authenticated user can perform on the system or resource, based on their role, privileges or permissions. Auditing involves tracking and monitoring access to resources, services or information to detect and prevent unauthorized access or security breaches.
+
+Access control is an important aspect of information security, as it helps to prevent unauthorized access, data breaches and cyber attacks. It is widely used in various industries, including healthcare, finance, government, and retail, where sensitive data and information need to be protected from unauthorized access or disclosure.
+
+## Access control list (ACL)
+
+An access control list (ACL) is a security mechanism used in computer operating systems, network devices, and web applications to control access to resources. An ACL is a list of permissions that specifies which users or groups are allowed or denied access to a particular resource such as files, folders, directories, or network ports.
+
+ACLs are based on the principle of discretionary access control (DAC), where the owner or creator of a resource determines who can access the resource and what actions they can perform on it. An ACL consists of one or more access control entries (ACEs) that contain information about the resource and the permissions granted to users or groups.
+
+There are two types of ACLs: standard and extended. Standard ACLs are used to control access to a resource based on the source IP address, while extended ACLs allow more granular control of access to a resource based on the source IP address, destination IP address, protocol, and port number.
+
+ACLs are commonly used in network security devices such as firewalls and routers to filter traffic based on source and destination addresses, protocols, and port numbers. They are also used in file systems to control access to files and directories based on user permissions.
+
+One of the key advantages of using ACLs is their flexibility and granularity. ACLs allow administrators to grant or deny access to specific resources to specific users or groups. This level of control helps to ensure that only authorized users are able to access sensitive resources, reducing the risk of data breaches and unauthorized access. Additionally, ACLs can be easily modified to adjust permissions as needed, making it easy to adapt to changing security requirements or user needs.
+
+## Discretionary Access Control (DAC)
+
+Discretionary Access Control (DAC) is a type of access control system where an object's owner has the ability to control who can access the object and what actions they can perform on it. It is a commonly used access control mechanism in computer systems and networks.
+
+In a DAC system, the owner of an object is given complete control over the access permissions of that object. The owner can choose who can access the object and what operations they are allowed to perform. This is in contrast to Mandatory Access Control (MAC), where access permissions are determined by a centralized security policy and not by the object's owner.
+
+DAC is a flexible access control mechanism that allows users to manage their own resources. For example, a user can decide who is allowed to access their files on a computer or who is allowed to read or modify their documents on a shared network drive. However, this flexibility comes with a drawback as it may lead to security vulnerabilities if an object owner grants access to unauthorized individuals or if they are careless with their access permissions.
+
+In a DAC system, access control lists (ACLs) are used to specify the access permissions for an object. An ACL contains a list of users or groups that are authorized to access the object, along with the specific permissions that they are allowed to perform. When a user attempts to access the object, the system checks the ACL to determine if the user has the necessary permissions to access it.
+
+DAC is a commonly used access control mechanism that provides flexibility and control to object owners. However, it is important to use DAC in conjunction with other security measures to ensure the overall security of a system or network.
+
+
+## Role-Based Access Control (RBAC)
+
+Role-Based Access Control (RBAC) is a method of access control that restricts access to system resources based on the roles that individual users perform within an organization. It is a widely used access control model that provides security by separating user access based on their roles.
+
+In an RBAC system, users are assigned roles based on their responsibilities within the organization. Roles define the set of permissions or access rights that are associated with a particular job function or position. Users are granted access to system resources based on their assigned roles. This helps to ensure that users only have access to the resources they need to perform their job function.
+
+RBAC provides several advantages over traditional access control methods, such as discretionary access control (DAC) and mandatory access control (MAC). One of the key advantages of RBAC is that it simplifies the administration of user privileges. Instead of managing user permissions individually, administrators can assign roles to groups of users and manage permissions at the role level. This makes it easier to ensure that users have the appropriate level of access to system resources.
+
+RBAC also provides a high degree of flexibility in terms of managing user access. Roles can be easily modified or deleted, allowing organizations to adapt to changing business needs. In addition, RBAC can be extended to support new applications or technologies as they are introduced.
+
+RBAC is a powerful access control mechanism that can help organizations to improve security, simplify administration, and reduce the risk of unauthorized access to critical system resources.
+
+
+## Attribute-Based Access Control (ABAC)
+
+Attribute-Based Access Control (ABAC) is a type of access control system that uses attributes to determine access rights. An attribute is a piece of information about a user, object, or environment that can be used to make access control decisions. These attributes can include user roles, job titles, security clearances, location, time of day, device type, and other factors.
+
+In an ABAC system, access control policies are defined based on attributes and rules. Access requests are evaluated against these policies, and access is granted or denied accordingly. For example, an ABAC system may be configured to grant access to a particular resource only to users with a specific job title who are accessing the resource from a particular location.
+
+ABAC offers several advantages over other access control systems, such as role-based access control (RBAC) and discretionary access control (DAC). ABAC is more flexible than RBAC because it can consider many different attributes in access control decisions. This means that access can be granted or denied based on more than just user roles, which can be limiting in some cases. ABAC is also more secure than DAC because access control decisions are based on policies rather than the discretion of individual users.
+
+ABAC is widely used in enterprise environments, especially in industries with complex security requirements, such as finance, healthcare, and government. It is often used in combination with other security technologies, such as identity and access management (IAM) systems, to provide a comprehensive security solution.
 
 
 ## Company leadership roles
