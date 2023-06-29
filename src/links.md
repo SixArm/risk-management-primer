@@ -12,6 +12,7 @@
 * [Critical Success Factors (CSFs)](critical-success-factors)
 * [Critical To Quality (CTQ)](critical-to-quality)
 * [Risks, Actions, Issues, Decisions (RAID)](risks-actions-issues-decisions)
+* [Value-at-Risk (VaR)](value-at-risk)
 * [Governance](governance)
 * [Coordinated disclosure](coordinated-disclosure)
 
